@@ -21,6 +21,14 @@ logger = logging.getLogger(__name__)
 
 
 # Create your views here.
+def logout_request(request):
+    # Get the user object based on session id in request
+    print("Log out the user `{}`".format(request.user.username))
+    # Logout user in the request
+    logout(request)
+    
+    data = {"userName":""} # Return empty username
+    return JsonResponse(data)
 
 # Create a `login_request` view to handle sign in request
 @csrf_exempt
