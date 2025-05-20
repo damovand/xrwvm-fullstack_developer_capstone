@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 
 
 # Create your views here.
-def logout_request(request):
+def logout_user(request):
     # Get the user object based on session id in request
     print("Log out the user `{}`".format(request.user.username))
     # Logout user in the request
