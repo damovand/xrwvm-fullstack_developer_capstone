@@ -2,11 +2,11 @@ from .models import CarMake, CarModel
 def initiate():
     print("Populate not implemented. Add data manually")
     car_make_data = [
-        {"name" : "NISSAN", "description" : "Great cars. Japanese technology"},
-        {"name" : "Mercedes", "description" : "Great cars. German technology"},
-        {"name" : "Audi", "description" : "Great cars. German technology"},
-        {"name" : "Kia", "description" : "Great cars. Korean technology"},
-        {"name" : "Toyota", "description" : "Great cars. Japanese technology"},
+        {"name": "NISSAN", "description": "Great cars. Japanese technology"},
+        {"name": "Mercedes", "description": "Great cars. German technology"},
+        {"name": "Audi", "description": "Great cars. German technology"},
+        {"name": "Kia", "description": "Great cars. Korean technology"},
+        {"name": "Toyota", "description": "Great cars. Japanese technology"},
     ]
 
     car_make_instances = []
