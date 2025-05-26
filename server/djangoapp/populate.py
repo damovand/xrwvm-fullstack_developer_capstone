@@ -1,4 +1,6 @@
 from .models import CarMake, CarModel
+
+
 def initiate():
     print("Populate not implemented. Add data manually")
     car_make_data = [
@@ -15,7 +17,7 @@ def initiate():
 
 # Create CarModel instances with the corresponding CarMake instances
     car_model_data = [
-      {"name":"Pathfinder", "type": "SUV", "year": 2023, "car_make": car_make_instances[0]},
+      {"name": "Pathfinder", "type": "SUV", "year": 2023, "car_make": car_make_instances[0]},
       {"name": "Qashqai", "type": "SUV", "year": 2023, "car_make": car_make_instances[0]},
       {"name": "XTRAIL", "type": "SUV", "year": 2023, "car_make": car_make_instances[0]},
       {"name": "A-Class", "type": "SUV", "year": 2023, "car_make": car_make_instances[1]},
